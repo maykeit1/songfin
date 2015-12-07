@@ -17,3 +17,5 @@ Future additions:
 2. Use a drum machine/metronome for tempo
 3. Have a record button from the first screen (record to local machine then option to share to soundcloud or Fbook)
 4. If shared to soundcloud (or Fbook) hardcode in a #songfin hastag for aggregation
+5. Shop to SOR for advertising
+6. Free App w/ in-app advertising
