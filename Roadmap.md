@@ -12,7 +12,7 @@ Use questions to generate each number answer:
 
 Song creation algorithm
 - V - 1234
-- PC - 2134 - 213
+- PC - 2143 - 213
 - C - 1324
 
 
