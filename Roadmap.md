@@ -8,7 +8,7 @@ Use questions to generate each number answer:
 - Step 5 - for lyrics - (List a type of person - i.e. sailor)
 - Step 6 - for lyrics - (List a type of place - i.e. port town)
 - Step 7 - for lyrics - (List an action word - sleeping)
-- Step 7 - for lyrics - (add a phrase from an aggregate a list of phrases - i.e. She swept it all behind the door, Your gentle soul surrounds me)
+- Step 7 - for lyrics - (add a phrase from an aggregate a list of phrases - i.e. She swept it all behind the door, Your gentle breeze surrounds me)
 
 Song creation algorithm
 - V - 1234
