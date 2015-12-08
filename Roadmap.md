@@ -5,6 +5,9 @@ Use questions to generate each number answer:
   - (Advanced Step - pick 2-9) - Beats per measure
 - Step 3 - pick 60-200 (Beats per measure)
 - step 4 - Pick 3 numbers between 2 and 7 -  (other chords besides 1. Should we include diminished?)
+- Step 5 - for lyrics - (List a type of person - i.e. sailor)
+- Step 6 - for lyrics - (List a type of place - i.e. port town)
+- Step 7 - for lyrics - (List an action word - sleeping)
 
 Song creation algorithm
 - V - 1234
