@@ -24,3 +24,4 @@ Future additions:
 4. If shared to soundcloud (or Fbook) hardcode in a #songfin hastag for aggregation
 5. Shop to SOR for advertising
 6. Free App w/ in-app advertising
+7. Have the app play the chord progression to the right tempo
