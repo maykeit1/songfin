@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3C6DF01CB8B7FC00AC512B /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C6DEF1CB8B7FC00AC512B /* SongModel.swift */; };
 		9B41B4591C16428000814F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B41B4581C16428000814F96 /* AppDelegate.swift */; };
 		9B41B45B1C16428000814F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B41B45A1C16428000814F96 /* ViewController.swift */; };
 		9B41B45E1C16428000814F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B41B45C1C16428000814F96 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B3C6DEF1CB8B7FC00AC512B /* SongModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
 		9B41B4551C16428000814F96 /* songfin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songfin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B41B4581C16428000814F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B41B45A1C16428000814F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				9B41B4581C16428000814F96 /* AppDelegate.swift */,
 				9B41B45A1C16428000814F96 /* ViewController.swift */,
+				9B3C6DEF1CB8B7FC00AC512B /* SongModel.swift */,
 				9B41B45C1C16428000814F96 /* Main.storyboard */,
 				9B41B45F1C16428000814F96 /* Assets.xcassets */,
 				9B41B4611C16428000814F96 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3C6DF01CB8B7FC00AC512B /* SongModel.swift in Sources */,
 				9B41B45B1C16428000814F96 /* ViewController.swift in Sources */,
 				9B41B4591C16428000814F96 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				9B41B47F1C16428000814F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B41B4801C16428000814F96 /* Build configuration list for PBXNativeTarget "songfinTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				9B41B4821C16428000814F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B41B4831C16428000814F96 /* Build configuration list for PBXNativeTarget "songfinUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				9B41B4851C16428000814F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
