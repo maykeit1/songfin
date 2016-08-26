@@ -4,24 +4,39 @@ import UIKit
 
 // A simple area to test and explain sections of the app.
 
-enum MusicalNote: Int {
-	case C = 1, Db, D, Eb, E, F, Gb, G, Ab, A, Bb, B
+// Lowercase letters represent flats and sharps :shrug
+enum MusicalKeysFlat: Int {
+	case C = 1, d, D, e, E, F, g, G, a, A, b, B
 }
 
-typealias Chord = (MusicalNote, MusicalNote, MusicalNote)
+enum MusicalKeysSharp: Int {
+    case C = 1, c, D, d, E, F, f, G, g, A, a, B
+}
+
+typealias MusicalNote = Int
+
+let MusicalHalfSteps = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+let Whole = 2
+let Half = 1
+
+let MajorScale = [Whole, Whole, Half, Whole, Whole, Whole, Half]
+let MajorChord = [1, 4, 7]
+let CMajor = ["C", "D", "E", "F", "G", "A", "B"]
+let FMajor = ["F", "G", "A", "Bb", "C", "D", "E"]
+
+typealias Chord = [Int]
 
 struct Song {
-	let key: MusicalNote = .C
+	let key: MusicalKeysSharp = .C
 	
-	func getMajorChordFrom(note: MusicalNote) -> Chord {
-		// If the first note is C
-		let firstNote = note
-		// Walk up the scale to the "3", but since we're walking half-steps it's 5 (minus 1 since C is 1)
-		let secondNote = MusicalNote.init(rawValue: firstNote.rawValue.advancedBy(4))
-		let thirdNote = MusicalNote.init(rawValue: firstNote.rawValue.advancedBy(7))
+	func getMajorChordForKey(note: MusicalNote) -> Chord {
+		let firstNote = MusicalHalfSteps[(note + MajorChord[0]) % MusicalHalfSteps.count]
+		let secondNote = MusicalHalfSteps[(note + MajorChord[1]) % MusicalHalfSteps.count]
+		let thirdNote = MusicalHalfSteps[(note + MajorChord[2]) % MusicalHalfSteps.count]
 		
-		return (firstNote, secondNote!, thirdNote!)
+		return [firstNote, secondNote, thirdNote]
 	}
 }
 
-Song().getMajorChordFrom(.C)
+Song().getMajorChordForKey(MusicalKeysSharp.E.rawValue)
