@@ -7,13 +7,23 @@ import Foundation
  */
 
 enum Notes {
+    enum HalfStep: Int {
+        case A = 1
+        case B = 3
+        case C = 4
+        case D = 6
+        case E = 8
+        case F = 9
+        case G = 11
+    }
+    
     enum Accidental: Int {
-        case Natural = -1
-        case Flat = 0
+        case Flat = -1
+        case Natural = 0
         case Sharp = 1
     }
     
-    case A(accidental: Accidental)
+    case A(halfStep: HalfStep, accidental: Accidental)
     case B(accidental: Accidental)
     case C(accidental: Accidental)
     case D(accidental: Accidental)
@@ -22,6 +32,6 @@ enum Notes {
     case G(accidental: Accidental)
 }
 
-Notes.A(accidental: .Natural)
+Notes.A(halfStep: .A, accidental: .Natural)
 
 //: [Next](@next)
